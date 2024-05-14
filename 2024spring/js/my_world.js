@@ -118,6 +118,7 @@ function p3_drawTile(i, j) {
   push();
 
   let onIsland = renderTerrain(i, j);
+  
   //click logic
   let n = clicks[[i, j]] | 0;
   if (n % 2 == 1) {
